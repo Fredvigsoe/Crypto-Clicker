@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>CryptoClicker</title>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>portfolio2</title>
 </head>
 <body>
+    <h1 id="guide">💰💰💰💰💰💰💰💰💰💰Click on the cryptos to get rich💰💰💰💰💰💰💰💰💰💰</h1>
+    <p id="walletvalue"> Total wallet value = $</p>
+
+
+<div id="cryptos">
+    <img id="btc" src="bitcoin.png" height="200" width="200">
+    <p id="btccounter"> BTC Earned: 0</p>
+    <img id="xrp" src="xrp.png" height="200" width="200">
+    <p id="xrpcounter"> XRP Earned: 0</p>
+
+    <img id="hbar" src="hbar.png" height="200" width="200">
+    <p id="hbarcounter"> HBAR Earned: 0</p>
+
+    <img id="xlm" src="xlm.png" height="200" width="200">
+    <p id="xlmcounter"> XLM Earned: 0</p>
+</div>
+
+<div id="style">
+    <div id="wallet">
+        <p><font size="+2">Crypto Wallet</font></p>
+        <p id="btcwallet"> BTC: 0</p>
+        <p id="btcvalue"> BTC Value: 0</p>
+        <p id="xrpwallet"> XRP: 0</p>
+        <p id="xrpvalue"> XRP Value: 0</p>
+        <p id="hbarwallet"> HBAR: 0</p>
+        <p id="hbarvalue"> HBAR Value: 0</p>
+        <p id="xlmwallet"> XLM: 0</p>
+        <p id="xlmvalue"> XLM Value: 0</p>
+    </div>
+
+   <div id="prices">
+        <p id="wallettitle">REAL TIME PRICES</p>
+        <p id="btcwalletprice"></p>
+        <p id="xrpwalletprice"></p>
+        <p id="hbarwalletprice"></p>
+        <p id="xlmwalletprice"></p>
+    </div>
+
+   <div class="shop">
+         <p><font size="+1">Buy BTC Miner</font></p>
+         <button><a href="#" onClick="buyBtcMiner()"><img src=miningrig.png title="Buy a Miner" width="50px" height="50px">Click here<a/></button>
+         <p id="btcminercost"> Miner cost: 12 BTC</p>
+         <p id="amountofminers">you own 0 miners</p>
+         <p id="valuePerSec">Value/sec: </p>
+    </div>
+
+   <div id="XRPTRADER">
+         <p id="TradeXrp">Trade BTC for 10000 XRP</p>
+         <button class="xrpStyle"><a href="#" onClick="buyXRP()""><img src=xrp.png title="Trade BTC for 10000 XRP" width="30px" height="30px">Click here</a></button>
+         <p id="btcxrp">BTC/XRP Pairing: </p>
+    </div>
+
+   <div id="HBARTRADER">
+         <p id="TradeHbar">Trade BTC for 10000 HBAR</p>
+         <button><a href="#" onClick="buyHBAR()""><img src=hbar.png width="30px" title="Trade BTC for 10000 HBAR" height="30px">Click here</a></button>
+         <p id="btchbar">BTC/HBAR Pairing: </p>
+    </div>
+
+   <div id="XLMTRADER">
+         <p id="TradeXlm">Trade BTC for 10000 XLM</p>
+         <button><a href="#" onClick="buyXLM()""><img src=xlm.png title="Trade BTC for 10000 XLM" width="30px" height="30px">Click here</a></button>
+         <p id="btcxlm">BTC/XLM Pairing: </p>
+    </div>
+
+</div>
+
+
 <script src="main.js"></script>
 </body>
 </html>

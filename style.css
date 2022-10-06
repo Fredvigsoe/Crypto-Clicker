@@ -1,0 +1,168 @@
+body {
+    background-image: url("background.jpg")
+}
+#guide {
+    display: flex
+    flex-direction: row;
+    width: 1200px;
+    height: 55px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: url("usd.jpg");
+    color: white
+}
+#cryptos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#wallet {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: left;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    color: white
+}
+
+#prices {
+    display: flex
+    flex-direction: column;
+    width: 150px;
+    height: 175px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: right;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: teal;
+    color: white
+}
+
+.shop {
+    display: flex
+    flex-direction: column;
+    width: 150px;
+    height: 215px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: right;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white
+}
+
+#btccounter {
+    display: flex
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+#xrpcounter {
+    display: flex
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+#hbarcounter {
+    display: flex
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+#xlmcounter {
+    display: flex
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+#walletvalue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 425px;
+    width: 350px;
+    height: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: green;
+    font-size: 26px
+
+}
+#style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#XRPTRADER {
+    display: flex
+    flex-direction: column;
+    display: flex
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+#HBARTRADER {
+    display: flex
+    flex-direction: column;
+    display: flex
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
+#XLMTRADER {
+    display: flex
+    flex-direction: column;
+    display: flex
+    flex-direction: column;
+    width: 150px;
+    height: 170px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+}
